@@ -11,4 +11,4 @@
 |Stormy     |Calm       |
 -------------------------
 
-- If no input has been given, response should be "Unknown
+- If no input has been given, response should be "Unknown"

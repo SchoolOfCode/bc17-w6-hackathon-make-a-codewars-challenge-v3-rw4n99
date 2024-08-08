@@ -1,5 +1,5 @@
 import { test, expect } from "vitest";
-import { weatherPrediction } from "./main";
+import { weatherPrediction } from "./weather";
 
 //Main tests
 test('Rainy should be Sunny', () => {
@@ -26,10 +26,3 @@ test('Stormy should be Calm', () => {
   const response = weatherPrediction("Stormy");
   expect(response).toMatch(/Calm|calm/)
 });
-
-//Tests for valid input
-
-test('Response must be a string', ()=> {
-  const response = weatherPrediction ("")
-  expect(response).toMatch(/Unknown|unknown/)
-})

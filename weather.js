@@ -1,4 +1,3 @@
-
 //Function for user to write
 export function weatherPrediction(prediction) {
     const result = prediction
@@ -20,5 +19,4 @@ export function weatherPrediction(prediction) {
         (result === "") {
             return "Unknown"
         }
-    
 }
