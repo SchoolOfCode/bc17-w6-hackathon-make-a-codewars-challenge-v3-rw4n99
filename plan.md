@@ -11,4 +11,4 @@
 |Stormy     |Calm       |
 -------------------------
 
-- It is possible that there are two weather conditions. You must therefore write "It will be "___" and "___"
+- If no input has been given, response should be "Unknown
