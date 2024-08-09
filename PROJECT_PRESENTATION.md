@@ -1,7 +1,8 @@
 # Weather Forecast Reverser
 
-Michael Fish, the infamous weather forecaster, needs your help! He’s been consistently getting his weather predictions wrong, and it’s your job to correct them by reversing the forecasts. For each weather condition, you’ll need to provide the exact opposite prediction.
+Michael Fish, the infamous weather forecaster, needs your help! He’s been consistently getting his weather predictions wrong, and it’s your job to correct them by reversing the forecasts. For each weather condition, you’ll need to provide the exact opposite prediction. The function should be written in weather.js.
 
+![alt text](<Michael_Fish.jpg> "Michael Fish")
 ## Objective
 
 Given a weather condition as input, your task is to output the opposite condition. If no input is provided, return "Unknown."
@@ -52,13 +53,8 @@ Help Michael Fish get it right by flipping his forecasts! This is a straightforw
 
 ## Overview
 
-You are developing a feature for ShopEasy, an e-commerce startup. The company is running a promotion where items priced above $19 receive a 20% discount. Your task is to implement a function that calculates the discounted price based on this rule.
+You are developing a feature for ShopEasy, an e-commerce startup. The company is running a promotion where items priced above $19 receive a 20% discount. Your task is to implement a function that calculates the discounted price based on this rule. The solution should be written in discount.js
 
 ## Task
 
 Implement the `discount` function to apply a 20% discount to items priced over $19. If the price is $19 or less, return the original price.
-
-### Function Signature
-
-```javascript
-export function discount(fullPrice: number): number

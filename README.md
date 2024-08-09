@@ -96,10 +96,10 @@ Before pushing your final kata repository, be sure to remove any solution code y
 Share it with following format:
 
 ```
-Room: REPLACE_ME_WITH_YOUR_ROOM_NUMBER
-Name: REPLACE_ME_WITH_YOUR_NAME
-Link: REPLACE_ME_WITH_A_LINK_TO_YOUR_PUBLIC_GITHUB_REPO_CONTAINING_THE_KATA
-Overview: REPLACE_ME_WITH_A_BRIEF_DESCRIPTION_OF_WHAT_YOUR_KATA_IS_ABOUT
+Room: 15
+Name: Rowan Godfrey
+Link: https://github.com/SchoolOfCode/bc17-w6-hackathon-make-a-codewars-challenge-v3-rw4n99
+Overview: There are 2 katas. Please start with the weather kata in weather.js. Michael Fish, the infamous weather forecaster, needs your help! He’s been consistently getting his weather predictions wrong, and it’s your job to correct them by reversing the forecasts. For each weather condition, you’ll need to provide the exact opposite prediction. The function should be written in weather.js
 ```
 
 If it's not public already, remember to change the visibility of your repository to public.

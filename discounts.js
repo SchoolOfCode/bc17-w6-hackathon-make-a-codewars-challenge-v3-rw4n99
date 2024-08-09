@@ -2,10 +2,5 @@
 //Round to the neares 2 decimal places
 
 export function discount(fullPrice) {
-    if (fullPrice > 19){
-    const totalOff = fullPrice * 0.2; 
-    return fullPrice - totalOff;         
-    } else {
-        return fullPrice
-    }
+
 }
