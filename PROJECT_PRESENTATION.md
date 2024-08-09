@@ -2,6 +2,8 @@
 
 Michael Fish, the infamous weather forecaster, needs your help! He’s been consistently getting his weather predictions wrong, and it’s your job to correct them by reversing the forecasts. For each weather condition, you’ll need to provide the exact opposite prediction. The function should be written in weather.js.
 
+## Make sure you run `npm install -d vitest`, and add the script, if it isn't already there
+
 ![alt text](<Michael_Fish.jpg> "Michael Fish")
 ## Objective
 
