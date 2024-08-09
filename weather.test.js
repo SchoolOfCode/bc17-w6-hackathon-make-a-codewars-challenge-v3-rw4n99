@@ -26,3 +26,7 @@ test('Stormy should be Calm', () => {
   const response = weatherPrediction("Stormy");
   expect(response).toMatch(/Calm|calm/)
 });
+
+test("barebones 2 test - function should exist"), () => {
+  expect(typeof weatherPrediction).toBe("function");
+};
