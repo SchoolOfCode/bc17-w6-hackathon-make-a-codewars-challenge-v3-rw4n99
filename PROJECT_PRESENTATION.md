@@ -47,3 +47,18 @@ This program can be used in weather applications, games, or simulations where re
 ## Conclusion
 
 Help Michael Fish get it right by flipping his forecasts! This is a straightforward and fun way to practice basic programming concepts like conditionals, input handling, and output formatting.
+
+## BONUS TASK
+
+## Overview
+
+You are developing a feature for ShopEasy, an e-commerce startup. The company is running a promotion where items priced above $19 receive a 20% discount. Your task is to implement a function that calculates the discounted price based on this rule.
+
+## Task
+
+Implement the `discount` function to apply a 20% discount to items priced over $19. If the price is $19 or less, return the original price.
+
+### Function Signature
+
+```javascript
+export function discount(fullPrice: number): number

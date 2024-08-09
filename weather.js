@@ -15,8 +15,8 @@ export function weatherPrediction(prediction) {
     } else if
         (result === "Stormy") {
             return "calm" 
-    } else if
-        (result === "") {
-            return "Unknown"
-        }
+    } else {
+        return "Unknown"
+    }
+        
 }

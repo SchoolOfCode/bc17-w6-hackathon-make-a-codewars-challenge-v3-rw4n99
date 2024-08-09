@@ -43,3 +43,18 @@
 
 ## 6) Adding function solution
 - Write function to return opposite values ✔
+
+## Types of tests used
+ 
+## Boundary Testing
+## Objective: 
+Test the function's behavior with inputs at the boundary of acceptable values (e.g., minimal string length, maximum known condition length).
+Test Steps:
+Input: r → Expected Output: Unknown
+Input: StRomy → Expected Output: Unknown
+Expected Results: The function returns "Unknown" for inputs that do not match any of the predefined weather conditions.
+
+## Input Validation Testing
+## Objective:
+Ensure that the application handles both expected and unexpected inputs gracefully. Without proper validation, an application might behave unpredictably or even crash when given invalid or unexpected data
+If a weather prediction function only expects valid weather conditions (e.g., "Rainy", "Sunny"), input validation testing ensures that incorrect inputs like "StRomy" are caught and handled appropriately (e.g., by returning "Unknown")
